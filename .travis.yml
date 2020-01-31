@@ -7,7 +7,7 @@ python:
 env:
   - ANSIBLE_PIP='ansible>=2.8,<2.9'
   - ANSIBLE_PIP='ansible>=2.9,<3.0'
-dist: bionic
+dist: xenial
 
 addons:
   apt:
